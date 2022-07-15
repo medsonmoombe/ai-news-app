@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+#root, html, body {
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #2196f3;
+    width: 100%;
+    height: 10%;
+}
+
+.nav-title {
+    color: #fff;
+    font-size: 30px;
+}
+
+.n {
+    color: #e72791;
+    font-weight: 800;
+}
+
+.nav-links {
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    width: 22%;
+    list-style: none;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: #e72791;
+    text-decoration: underline;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.single-card {
+    background: #eee;
+}
+
+.aurthor {
+    color: #E91E63;
+    font-size: 20px;
+}
+
+.title {
+    font-size: 23px;
+    width: 93%;
+    margin-left: 15px;
+    color: #2196f3;
+}
+
+.imgDiv {
+    margin-top: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    width: 94%;
+    height: 300px;
+}
+
+.details {
+    display: flex;
+    width: 94%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.descr-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 21px;
+    align-items: center;
+    width: 99%;
+    height: auto;
+    padding: 4px 0.7rem 1.01rem;
+    background: #ebedef;
+    margin: auto;
+    font-size: 15px;
+    border: transparent;
+}
+
+a {
+        
+    margin-left: 12px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 53px;
+    font-weight: 500;
+}
+
+.home-img {
+    width: 100%;
+    height: 452px;
+    margin-top: 12%;
+}
+
+.home {
+    height: 100vh;
+    background: #0c0f12;
+}
+
+.title-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+}
+
+.home-tilte {
+    color: #2196f3;
+    font-size: 22px;
+    text-transform: capitalize;
+    width: 69%;
+    text-align: center;
+    line-height: 39px;
+
+}
+
+.h {
+    color: #fff;
+}
+
+.home-b-tilte {
+    padding: 2.1rem 3.1rem 2.1rem;
+    padding-top: 0.1rem o5.2rem o.5rem;
+    text-align: center;
+    color: #2196f3;
+    font-size: 23px;
+    line-height: 40px;
+}
